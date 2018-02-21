@@ -34,7 +34,7 @@ void TrieNode::getAllWords(vector<string>& res, const string& prefix)
         if (m_children[i] != NULL)
         {
             ostringstream oss;
-            oss << prefix << 'a' + i;
+            oss << prefix << (char)('a' + i);
             m_children[i]->getAllWords(res, oss.str());
         }
     }
@@ -43,6 +43,8 @@ void TrieNode::getAllWords(vector<string>& res, const string& prefix)
 struct Trie
 {
     TrieNode * m_root;
+    
+    Trie() : m_root(new TrieNode()) {};
     
     void insert(const string& w);
     
@@ -98,8 +100,33 @@ vector<string> Trie::findMatchPrefixWord(const string& prefix)
     return res;
 }
 
+Trie * buildTree()
+{
+    Trie * t = new Trie();
+    
+    t->insert("aaa");
+    t->insert("aab");
+    t->insert("acc");
+    
+    return t;
+}
+
+void print(const vector<string> & v)
+{
+    for (auto a : v)
+        cout << a << " ";
+    
+    cout << endl;
+}
+
 int main(int argc, char** argv) {
 
+    Trie * t = buildTree();
+    
+    vector<string> res = t->findMatchPrefixWord("aa");
+    
+    print(res);
+    
     return 0;
 }
 
