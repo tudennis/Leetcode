@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=MinGW-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/MinGW-Windows
-CND_ARTIFACT_NAME_Debug=leetcode
-CND_ARTIFACT_PATH_Debug=dist/Debug/MinGW-Windows/leetcode
+CND_ARTIFACT_NAME_Debug=bst
+CND_ARTIFACT_PATH_Debug=dist/Debug/MinGW-Windows/bst
 CND_PACKAGE_DIR_Debug=dist/Debug/MinGW-Windows/package
-CND_PACKAGE_NAME_Debug=leetcode.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/MinGW-Windows/package/leetcode.tar
+CND_PACKAGE_NAME_Debug=bst.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/MinGW-Windows/package/bst.tar
 # Release configuration
 CND_PLATFORM_Release=MinGW-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/MinGW-Windows
-CND_ARTIFACT_NAME_Release=leetcode
-CND_ARTIFACT_PATH_Release=dist/Release/MinGW-Windows/leetcode
+CND_ARTIFACT_NAME_Release=bst
+CND_ARTIFACT_PATH_Release=dist/Release/MinGW-Windows/bst
 CND_PACKAGE_DIR_Release=dist/Release/MinGW-Windows/package
-CND_PACKAGE_NAME_Release=leetcode.tar
-CND_PACKAGE_PATH_Release=dist/Release/MinGW-Windows/package/leetcode.tar
+CND_PACKAGE_NAME_Release=bst.tar
+CND_PACKAGE_PATH_Release=dist/Release/MinGW-Windows/package/bst.tar
 #
 # include compiler specific variables
 #
